@@ -8,6 +8,16 @@ import styled from 'styled-components';
 import {ExternalLink} from '../components/Link';
 
 const projects = [{
+    name: 'Movie theater crawler',
+    mainLink: 'https://github.com/Diogo-Ferreira/TheaterCrawler',
+    content: `
+        A crawler that checks for new movies
+    `,
+    links: [{
+        text: '👨‍💻 Github repository',
+        link: 'https://github.com/Diogo-Ferreira/TheaterCrawler'
+    }]
+}, {
     name: 'ibring.it',
     mainLink: 'https://ibring.it',
     content: `
