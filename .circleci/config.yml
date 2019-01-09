@@ -12,4 +12,4 @@ jobs:
             - "0c:68:3e:dd:dd:ef:8e:9d:dc:1a:23:da:c2:c0:10:a5"
       - run: sudo apt-get update
       - run: sudo apt-get install rsync
-      - run: yes "yes" | rsync -avc -e "yes | ssh -p 2121" ./public/ ftpdio53897@diogoferreira.ch:/lab.diogoferreira.ch
+      - run: yes "yes" | rsync -avc -e "ssh -p 2121 -o StrictHostKeyChecking=no" ./public/ ftpdio53897@diogoferreira.ch:/lab.diogoferreira.ch
