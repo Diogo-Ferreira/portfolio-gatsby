@@ -25,7 +25,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={keywords} />
     <MyPic />
-    <BigTitle>Hi 👋 My name is Diego</BigTitle>
+    <BigTitle>Hi 👋 My name is Diogo</BigTitle>
     <Paragraph>I'm a software engineer interested by recent web technologies, containers and more <br /> Check my <InternalLink to="/projects">projects</InternalLink> and my <InternalLink to="/about">parcour</InternalLink> if you're interested</Paragraph>
     <Paragraph>
       <ExternalLink href="https://github.com/Diogo-Ferreira">Github</ExternalLink> | <ExternalLink href="https://twitter.com/__diog">Twitter</ExternalLink> | <ExternalLink href="https://www.linkedin.com/in/diogoferreiravenancio/">Linkedin</ExternalLink>
