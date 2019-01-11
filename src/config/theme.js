@@ -1,8 +1,8 @@
 export default {
-    primaryColor: '#35df79',
+    primaryColor: '#06D6A0',
     secondaryColor: '#d2dae2',
-    textColor: '#fff',
+    textColor: '#F6F7F8',
     inverseTextColor: '#FFF',
     font: 'Avenir',
-    background: '#000'
+    background: '#1C1C1C'
 }

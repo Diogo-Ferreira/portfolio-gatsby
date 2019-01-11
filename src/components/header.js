@@ -15,8 +15,8 @@ const Header = ({ siteTitle, menus }) => (
 )
 
 const MenuItem = styled(Link)`
-  ${({ theme: { inverseTextColor, primaryColor } }) => css`
-    color: ${inverseTextColor};
+  ${({ theme: { textColor } }) => css`
+    color: ${textColor};
     margin: 0px 8px;
     text-decoration: none;
   `};

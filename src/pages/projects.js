@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import Paragraph from '../components/Paragraph';
 import { MediumTitle, SmallTitle } from '../components/Title';
 import styled from 'styled-components';
-import {ExternalLink} from '../components/Link';
+import { ExternalLink } from '../components/Link';
 
 const projects = [{
     name: 'Movie theater crawler',
