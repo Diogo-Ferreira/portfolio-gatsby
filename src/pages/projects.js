@@ -11,7 +11,8 @@ const projects = [{
     name: 'Movie theater crawler',
     mainLink: 'https://github.com/Diogo-Ferreira/TheaterCrawler',
     content: `
-        A crawler that checks for new movies
+        I was always missing new movies openings in my town, so I decided to create a crawler to alert me whenever a new movie is up on their website!
+        The crawler's made with node and sends the notification to a slack channel. Bonus: k8s deployment!
     `,
     links: [{
         text: '👨‍💻 Github repository',
@@ -21,7 +22,7 @@ const projects = [{
     name: 'ibring.it',
     mainLink: 'https://ibring.it',
     content: `
-        A web application written with Django which is like the Doodle of food ! Tell your friends how many beers and pizza you need for your tonight’s home party ! I’m currently rewriting it with React / GraphQL / Express 🎉
+        I present you the doodle of food! You're making a BBQ tonight at home? Tell how many drinks, chips and whatever you need to your friends so the bring you they right stuff in the right amount!
     `,
     links: [{
         text: '🌎 Website',
@@ -32,9 +33,13 @@ const projects = [{
     }]
 }, {
     name: 'Social profile',
-    content: `
-        A data mining plateform to solve the cold start issue with recommending systems
-    `,
+    mainLink: 'https://github.com/Diogo-Ferreira/Social-Profile',
+    content: (
+        <React.Fragment>
+            School project to solve the <ExternalLink href="https://en.wikipedia.org/wiki/Cold_start_(computing)">cold start </ExternalLink> 
+             issue in recommending systems by crawling existing social network data. It features a micro-service based architecture with RabbitMQ where each miner (micro - service) crawls a different social website.
+        </React.Fragment>
+    ),
     links: [
         {
             text: '👨‍💻 Github repository',
