@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: `Diogo Ferreira Venancio's website`,
+        short_name: `Diogo's Porfolio`,
         start_url: '/',
         background_color: '#1C1C1C',
         theme_color: '#DADDD8',
