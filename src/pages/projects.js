@@ -3,7 +3,7 @@
 import React from 'react'
 import Layout from '../components/layout';
 import Paragraph from '../components/Paragraph';
-import { MediumTitle } from '../components/Title';
+import { BigTitle } from '../components/Title';
 import styled from 'styled-components';
 import { ExternalLink } from '../components/Link';
 
@@ -85,9 +85,9 @@ const Wrapper = styled.div`
 
 const ProjectCard = ({ name, content, links, mainLink, className }) => (
     <div className={className}>
-        <MediumTitle>
+        <BigTitle>
             {name}
-        </MediumTitle>
+        </BigTitle>
         <Paragraph>{content}</Paragraph>
         <LinksWrapper>
             {links.map(({ text, link }) => <ExternalLink key={link} href={link}>{text}</ExternalLink>)}
