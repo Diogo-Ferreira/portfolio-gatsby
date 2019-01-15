@@ -15,7 +15,7 @@ const parcours = [{
     ),
     timeLabel: 'November 2018',
     content: `
-        Helping girls to code a website in django for the first time in Lausanne.
+        Decreasing the gender gap by helping girls to code a website in django for the first time. The event took place in Lausanne.
     `,
     keywords: []
 },{
@@ -26,7 +26,7 @@ const parcours = [{
     ),
     timeLabel: 'September 2018 - Now',
     content: `
-        Working as a Full-Stack Developer with React, Node, Mongo and Docker.
+        Working as a Full-Stack Developer with React, Node, Mongo and Docker building innovating next generation web platforms.
     `,
     keywords: []
 },
